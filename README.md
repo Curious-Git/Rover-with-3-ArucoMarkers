@@ -7,8 +7,8 @@ git clone https://github.com/ShishirV712/URC_NAV.git
 
 Navigate back to the workspace directory and type the following commands:
 
-
-colcon build 
+rosdep install --from-paths src -r -y
+colcon build
 
 
 source install/setup.bash

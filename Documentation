@@ -3,8 +3,8 @@ which is basically a box with four wheels and
 the controls are of the type skid_steer_drive
 The rover can be launched in a mars environment 
 (git hub link tothe Mars world https://github.com/noiseless47/ros2_rover)
-It is also possible to launch the bot in a forest and moon environment 
-But our current focus is on Mars... 
+It is also possible to launch the bot in a forest or in a moon environment 
+But our current focus is on Mars...
 Also the rover has been integrated with some sensors namely 
 1)Depth camera 
 2)Camera(optional) 

@@ -12,3 +12,6 @@ Also the rover has been integrated with some sensors namely
 4) GPS 
 5) Lidar(but not using in URC) 
 
+Source:
+For rover design: Articulated Robotics 
+For Mars world: https://github.com/noiseless47/ros2_rover

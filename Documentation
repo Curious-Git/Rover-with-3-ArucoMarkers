@@ -13,7 +13,7 @@ Issues that I faced:
 2) When I cloned the Mars world I had to install Rtab for launching the command so make sure to run “rosdep install --from-paths src -r -y” before you colcon build your workspace
 3) While replacing the rover's urdf(the one in the Mars world git) with my urdf I had to change the path for rsp(robot state publisher) launch file and make sure that the name of the package was also changed in my case urc_rover.
 Source:
-1) For rover design: Articulated Robotics(https://youtube.com/@articulatedrobotics?feature=shared) 
+1) For rover design with some of the sensors: Articulated Robotics(https://youtube.com/@articulatedrobotics?feature=shared) 
 2) For Mars world: https://github.com/noiseless47/ros2_rover
 3) For adding IMU and GPS I referred to the official gazebo plugins:
    a) IMU:https://classic.gazebosim.org/tutorials?tut=ros_gzplugins

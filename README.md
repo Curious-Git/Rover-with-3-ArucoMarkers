@@ -18,3 +18,10 @@ Now type:
 
 
 ros2 launch rover_gazebo mars.launch.py
+
+Open a new terminal and run the command: 
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+
+
+

@@ -9,11 +9,11 @@ Also the rover has been integrated with some sensors namely
 5) Lidar(but not using in URC) 
 
 Issues that I faced:
-The normal diff_drive wouldn't work as those are the controls for a bit with two wheels along with a caster wheel. So when giving the gazebo controls make sure to change it to skid_stree_drive.
-When I cloned the Mars world I had to install Rtab for launching the command so make sure to run “rosdep install --from-paths src -r -y” before you colcon build your workspace
-While replacing the rover's urdf(the one in the Mars world git) with my urdf I had to change the path for rsp(robot state publisher) launch file and make sure that the name of the package was also changed in my case urc_rover.
+1) The normal diff_drive wouldn't work as those are the controls for a bit with two wheels along with a caster wheel. So when giving the gazebo controls make sure to change it to skid_stree_drive.
+2)When I cloned the Mars world I had to install Rtab for launching the command so make sure to run “rosdep install --from-paths src -r -y” before you colcon build your workspace
+3) While replacing the rover's urdf(the one in the Mars world git) with my urdf I had to change the path for rsp(robot state publisher) launch file and make sure that the name of the package was also changed in my case urc_rover.
 Source:
-For rover design: Articulated Robotics
-For Mars world: https://github.com/noiseless47/ros2_rover
-For adding IMU and GPS I referred to the official gazebo plugins
+1) For rover design: Articulated Robotics
+2) For Mars world: https://github.com/noiseless47/ros2_rover
+3) For adding IMU and GPS I referred to the official gazebo plugins
 

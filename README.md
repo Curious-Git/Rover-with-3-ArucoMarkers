@@ -1,28 +1,17 @@
-# Steps to launch the simulation 
-Create your workspace and git clone in your src folder using the following command:
+This is a rover in a mars world that has 3 aruco markers (IDs - 0, 10 and 42) that can be inserted in the Gazebo World.
+The markers are stored in the folder 'models' in 'rover_gazebo'.
+Open the simulation in Gazebo and go to the Insert Tab, click on the marker you want to insert and place it in the world landscape.
+
+In case you cannot see the markers in the inser tab, then:
+
+navigate to your workspace directory
 
 
-git clone https://github.com/ShishirV712/URC_NAV.git
+run this command:  export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:models
 
+along with the usual source setup bash etc
 
-Navigate back to the workspace directory and type the following commands:
-
-rosdep install --from-paths src -r -y
-
-colcon build
-
-
-source install/setup.bash
-
-
-Now type:
-
-
-ros2 launch rover_gazebo mars.launch.py
-
-Open a new terminal and run the command: 
-
-ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+This adds the all the models to the environment variable GAZEBO_MODEL_PATH
 
 
 

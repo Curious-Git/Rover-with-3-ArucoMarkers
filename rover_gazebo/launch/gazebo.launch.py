@@ -183,6 +183,6 @@ def generate_launch_description():
     ld.add_action(gazebo_server_cmd)
     ld.add_action(cmd_vel_cmd)
     ld.add_action(spawn_cmd)
-    ld.add_action(rtabmap_cmd)
+    #ld.add_action(rtabmap_cmd)
 
     return ld
